@@ -1,6 +1,10 @@
 name: Your New Jekyll Site
 pygments: true
 
+source:      .
+destination: ./_site
+layouts:     ./_layouts
+
 post:
   template: _post.txt
   extension: md
