@@ -13,6 +13,11 @@ page:
   extension: md
 editor: ia
 
+markdown: redcarpet
+
+redcarpet:
+  extensions: ["hard_wrap", "no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "strikethrough", "superscript"]
+
 exclude:
 - assets
 - README.md
